@@ -1,0 +1,26 @@
+Respuestas a las preguntas en archivo readme
+
+ Pregunta 1
+R//En react un componente UI es el encargado de la parte del interfaz que ve el usuario en la pagina, es decir lo bonito, los graficos, una parte de su diseño unico, los componentes se refieren a elementos como botones,
+menús desplegables, barras de navegación y formularios que se utilizan para mejorar la interactividad y usabilidad de un sitio.
+A cambio el componente funcional es aquel que esta del otro lado de la ejecucion del programa, algo mas logico, puede tener componentes logicos que no son visible, es decir, es un bloque de construcción de codigo básico creado mediante una función de JavaScript, 
+debido a que proporciona los elementos para que React construya la interfaz de usuario. 
+
+
+Pregunta 2
+R//Las props en React son un mecanismo fundamental para pasar datos de un componente a otro. Son simplemente objetos JavaScript que contienen información que un componente hijo necesita para renderizarse correctamente, 
+Permiten personalizar el comportamiento y la apariencia de un componente, pueden ser de cualquier tipo de dato, incluyendo cadenas, números, funciones, objetos y arrays, ademas de que Facilitan la creación de componentes reutilizables.
+
+
+ Pregunta 3
+R//Son una forma especial de pasar contenido a un componente. Cuando se utiliza un componente, cualquier contenido que se incluya entre las etiquetas de apertura y cierre del componente se considera children,  
+Este contenido se puede renderizar dentro del componente como si fuera parte de su estructura. 
+El uso excesivo de children props no es recomendable por su poca legilidad y mantenimiento a largo plazo, ademas de que a veces usar children puede dificultar la creación de componentes reutilizables agilidad,
+ya que el diseño del componente puede depender demasiado de su contenido interno, ya que no todos los desarrolladores utilizan la misma logica.
+
+
+ Pregunta 3
+R//Es un hook de React que permite a los componentes funcionales gestionar su propio estado. Es una de las herramientas más fundamentales para hacer que los componentes sean interactivos y dinámicos.
+Por otro lado, hook es una función que se importa desde React y que solo puede ser utilizada dentro de componentes funcionales.
+Se utiliza principalmente porque  permite a un componente almacenar y gestionar un valor que puede cambiar con el tiempo, como la entrada de un usuario, el estado de un botón, o cualquier otra información relevante para la interfaz de usuario,
+ademas de que es útil para almacenar datos temporales que no necesitan ser compartidos entre componentes, como el estado de un formulario o la selección de un elemento en una lista.
